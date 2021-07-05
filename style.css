@@ -1,0 +1,107 @@
+/* <--------------- Common ---------------> */
+body {
+    font-family: open-sans, sans-serif;
+  }
+
+.navbar {
+    background-color: #fff;
+}
+
+.btn-custom {
+    color: #fff;
+    background-color: #6c63ff;
+    border-color: #6c63ff;
+    text-decoration: none;
+}
+
+.btn-custom:focus,
+.btn-custom:hover,
+.btn-custom:active {
+    color: #fff;
+    background-color: #514abf;
+    border-color: #514abf;
+    text-decoration: none;
+}
+
+a {
+    color: #6c63ff;
+    text-decoration: none;
+    cursor: pointer;
+}
+
+a:focus,
+a:hover,
+a:active {
+    color: #514abf;
+    text-decoration: underline;
+}
+
+footer ul a {
+    color: #212529;
+}
+
+ul {
+    list-style:none;
+    margin-left:0;
+    padding-left:0;
+}
+
+.separator {
+    height: 0.3rem;
+    width: 6rem;
+    background: #fe5b63;
+    border-radius: 1rem;
+}
+
+.border-shadow {
+    box-shadow: 0 0.1rem 0.5rem 0 rgba(0, 0, 0, 0.1);
+}
+
+.screen {
+    box-shadow: 0 0.1rem 0.5rem 0 rgba(0, 0, 0, 0.1);
+}
+
+.logos img {
+    opacity: 0.4;
+    filter: grayscale(100%);
+    transition: opacity ease-in-out 0.15s;
+}
+
+.logos img:hover {
+    filter: grayscale(0);
+    opacity: 1;
+}
+
+.map {
+    background-image: url(/svg/background-map.svg);
+    height: 500px;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+
+/* <--------------- Pricing ---------------> */
+.card {
+    background-color: #fff;
+    padding: 1rem;
+    transition: box-shadow .25s ease-out,color .25s ease-out;
+    box-shadow: 0 0.1rem 0.5rem 0 rgba(0, 0, 0, 0.1);
+}
+
+.card .separator {
+    margin: auto;
+}
+
+.card:focus,
+.card:hover,
+.card:active {
+    box-shadow: 0 0.1rem 0.5rem 0 rgba(0, 0, 0, 0.5);
+}
+
+.card li {
+    display: flex;
+}
+
+.card strong {
+    color: #6c63ff;
+}
