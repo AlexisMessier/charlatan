@@ -1,3 +1,4 @@
+<!DOCTYPE html>
 <html lang="fr">
 
 <head>
@@ -7,29 +8,30 @@
     <meta name="author" content="Le Charlatan">
     <meta name="google-site-verification" content="">
     <title>Le Charlatan | Bar à Cocktails Lille</title>
+
     <!-- Bootstrap CSS -->
-    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css"
-        integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
-    <link href="https://fonts.googleapis.com/css?family=Roboto:700" rel="stylesheet">
-    <link rel="stylesheet" href="/main.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.0/dist/css/bootstrap.min.css"
+        integrity="sha384-B0vP5xmATw1+K9KRQjQERJvTumQW0nPEzvF6L/Z6nronJ3oUOFUFpCjEUQouq2+l" crossorigin="anonymous">
+    <link rel="stylesheet" href="stylesheet.css">
 </head>
 
 <body>
     <!-- Navigation -->
-    <nav class="navbar fixed-top border-shadow navbar-expand-lg">
+    <nav class="navbar fixed-top border-shadow navbar-expand-lg navbar-dark bg-dark">
         <div class="container">
             <a class="navbar-brand" href="/">
-                <img src="images/Transparent Background_LeChar_Hori-Black-01.png" class="d-inline-block align-top"
-                    alt="Le Charlatan logo, bar à Cocktails sur Lille" width="30" height="30">
+                <img src="images/Logo navbar dark.png" class="d-inline-block align-top"
+                    alt="Le Charlatan logo, bar à Cocktails sur Lille" width="auto" height="30">
+                Le Charlatan
             </a>
-            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavDropdown"
-                aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent"
+                aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
                 <span class="navbar-toggler-icon"></span>
             </button>
-            <div class="collapse navbar-collapse" id="navbarNavDropdown">
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
                 <ul class="navbar-nav  ml-auto">
-                    <li class="nav-item">
-                        <a class="nav-link" href="/carte">Carte</a>
+                    <li class="nav-item active">
+                        <a class="nav-link" href="/carte" class="sr-only">Carte</a>
                     </li>
                     <li class="nav-item">
                         <a class="nav-link" href="/adresse">Adresse</a>
@@ -57,12 +59,12 @@
                 <div class="row">
                     <div class="col-lg-6">
                         <h1>Le Charlatan</h1>
-                        <p class="lead mt-4">Bar à Cocktail. L'ambiance suggère un cabinet médical de curiosité, en
-                            vogue au XVIIe siècle.</p>
+                        <p class="lead mt-4">Bar à Cocktail</p>
+                        <p class="lead mt-4">Dégustez les potions du Charlatan dans son cabinet de curiosités médicales
+                        </p>
                         <a class="btn btn-custom btn-lg my-3" href="https://calendly.com/">Contactez-nous</a>
                     </div>
                     <div class="col-lg-6">
-                        <img src="svg/charlatan2.svg" style="height: auto; width: 100%">
                     </div>
                 </div>
             </div>
@@ -159,17 +161,16 @@
         <div class="py-3 container">
             <div class="py-5 row">
                 <div class="col-lg-4">
+                    <img src="images/Transparent Background_LeChar_Horizontal-01.png" class="d-inline-block align-top"
+                        alt="Le Charlatan, bar à Cocktails sur Lille" width="50%" height="auto">
                     <p>
-                        <img src="images/logo-charlatan1.svg" class="d-inline-block align-top"
-                            alt="Le Charlatan, bar à Cocktails sur Lille" width="30" height="30">
-                        Le Charlatan<br>
                         4 boulevard Victor Hugo<br>
                         59000 Lille
                     </p>
                 </div>
                 <div class="col-lg-4">
                     <ul>
-                        <li><a href="/">Homepage</a></li>
+                        <li><a href="/">Accueil</a></li>
                         <li><a href="/carte">Carte</a></li>
                         <li><a href="/adresse">Adresse</a></li>
                         <li><a href="/contact">Contact</a></li>
@@ -183,17 +184,18 @@
                         +33 6 78 89 05 98
                     </p>
                     <a href="https://calendly.com/">Contactez-nous</a>
-                    <p>Contactez-nous</p>
                 </div>
             </div>
             <small>2021 Le Charlatan all rights reserved ©</small>
         </div>
     </footer>
 
-    <!-- Optional JavaScript -->
-    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
-    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"
-        integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl"
+    <!-- JavaScript jQuery first, then Popper.js, then Bootstrap JS -->
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"
+        integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj"
+        crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.0/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-Piv4xVNRyMGpqkS2by6br4gNJ7DXjqk09RmUpJ8jgGtD7zP9yug3goQfGII0yAns"
         crossorigin="anonymous"></script>
 
 

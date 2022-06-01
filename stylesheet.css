@@ -1,16 +1,19 @@
 /* <--------------- Common ---------------> */
 body {
     font-family: open-sans, sans-serif;
-  }
+}
 
-.navbar {
-    background-color: #111;
+header {
+    background-image: url("images/Dissection.png");
+    background-position: center;
+    color: #fff;
+    text-shadow: 1px 1px 2px #212529;
 }
 
 .btn-custom {
     color: #fff;
-    background-color: #6c63ff;
-    border-color: #6c63ff;
+    background-color: #EBB900;
+    border-color: #EBB900;
     text-decoration: none;
 }
 
@@ -18,13 +21,13 @@ body {
 .btn-custom:hover,
 .btn-custom:active {
     color: #fff;
-    background-color: #514abf;
-    border-color: #514abf;
+    background-color: #d19d00 ;
+    border-color: #d19d00 ;
     text-decoration: none;
 }
 
 a {
-    color: #6c63ff;
+    color: #EBB900;
     text-decoration: none;
     cursor: pointer;
 }
@@ -32,7 +35,7 @@ a {
 a:focus,
 a:hover,
 a:active {
-    color: #514abf;
+    color: #d19d00 ;
     text-decoration: underline;
 }
 
@@ -49,7 +52,7 @@ ul {
 .separator {
     height: 0.3rem;
     width: 6rem;
-    background: #fe5b63;
+    background: #EBB900;
     border-radius: 1rem;
 }
 
@@ -80,7 +83,7 @@ ul {
 }
 
 
-/* <--------------- Pricing ---------------> */
+/* <--------------- Cards ---------------> */
 .card {
     background-color: #fff;
     padding: 1rem;
@@ -103,5 +106,5 @@ ul {
 }
 
 .card strong {
-    color: #6c63ff;
+    color: #EBB900;
 }
