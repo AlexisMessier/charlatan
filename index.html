@@ -7,6 +7,11 @@
     <meta name="description" content="Le Charlatan | Bar à Cocktails Lille">
     <meta name="author" content="Le Charlatan">
     <meta name="google-site-verification" content="">
+    <!-- <meta property="og:url" content="https://www.your-domain.com/your-page.html" />
+    <meta property="og:type" content="website" />
+    <meta property="og:title" content="Your Website Title" />
+    <meta property="og:description" content="Your description" />
+    <meta property="og:image" content="https://www.your-domain.com/path/image.jpg" /> -->
     <title>Le Charlatan | Bar à Cocktails Lille</title>
 
     <!-- Bootstrap CSS -->
@@ -17,7 +22,7 @@
 
 <body>
     <!-- Navigation -->
-    <nav class="navbar fixed-top border-shadow navbar-expand-lg navbar-dark bg-dark">
+    <nav class="navbar fixed-top border-shadow navbar-expand-lg navbar-dark navbarbackgound">
         <div class="container">
             <a class="navbar-brand" href="/">
                 <img src="images/Logo navbar dark.png" class="d-inline-block align-top"
@@ -31,7 +36,7 @@
             <div class="collapse navbar-collapse" id="navbarSupportedContent">
                 <ul class="navbar-nav  ml-auto">
                     <li class="nav-item active">
-                        <a class="nav-link" href="/carte" class="sr-only">Carte</a>
+                        <a class="nav-link" href="/ordonnance" class="sr-only">Ordonnance</a>
                     </li>
                     <li class="nav-item">
                         <a class="nav-link" href="/adresse">Adresse</a>
@@ -53,6 +58,7 @@
         </div>
     </nav>
 
+    <!-- Header -->
     <header class="py-5  mt-5">
         <div class="p-lg-7 mx-auto my-7 py-5">
             <div class="container">
@@ -60,9 +66,15 @@
                     <div class="col-lg-6">
                         <h1>Le Charlatan</h1>
                         <p class="lead mt-4">Bar à Cocktail</p>
-                        <p class="lead mt-4">Dégustez les potions du Charlatan dans son cabinet de curiosités médicales
-                        </p>
-                        <a class="btn btn-custom btn-lg my-3" href="https://calendly.com/">Contactez-nous</a>
+                        <p class="lead mt-4">Proche du parc Jean-Baptiste Lebas à Lille, le Charlatan vous accueille
+                            dans son cabinet et vous propose ses mixtures et potions pour traiter vos Humeurs</p>
+                        <a class="btn btn-custom btn-lg my-3"
+                            href="https://calendly.com/lecharlatan/reservations">Réserver</a><br>
+                        <iframe
+                            src="https://www.facebook.com/plugins/like.php?href=https%3A%2F%2Fwww.facebook.com%2FLeCharlatanBar&width=200&layout=button_count&action=like&size=large&share=true&height=46&appId"
+                            width="250" height="30" style="border:none;overflow:hidden" scrolling="no" frameborder="0"
+                            allowfullscreen="true"
+                            allow="autoplay; clipboard-write; encrypted-media; picture-in-picture; web-share"></iframe>
                     </div>
                     <div class="col-lg-6">
                     </div>
@@ -71,6 +83,7 @@
         </div>
     </header>
 
+    <!-- Content -->
     <section>
         <div class="container py-5">
             <div class="row">
@@ -78,19 +91,19 @@
                     <img class="my-4" style="height: 4.5rem" src="svg/image1.svg" alt="Le Charlatan">
                     <h4>blah blah blah blah </h4>
                     <p class="py-3">blah blah blah blah blah blah blah </p>
-                    <a href="/carte">En savoir plus ›</a>
+                    <a href="/ordonnance">En savoir plus ›</a>
                 </div>
                 <div class="col-lg-4">
                     <img class="my-4" style="height: 4.5rem" src="svg/image2.svg" alt="Le Charlatan">
                     <h4>blah blah blah blah </h4>
                     <p class="py-3">blah blah blah blah blah </p>
-                    <a href="/carte">En savoir plus ›</a>
+                    <a href="/ordonnance">En savoir plus ›</a>
                 </div>
                 <div class="col-lg-4">
                     <img class="my-4" style="height: 4.5rem" src="svg/image3.svg" alt="Le Charlatan">
                     <h4>blah blah blah blah </h4>
                     <p class="py-3">blah blah blah blah blah blah blah </p>
-                    <a href="/carte">En savoir plus ›</a>
+                    <a href="/ordonnance">En savoir plus ›</a>
                 </div>
             </div>
         </div>
@@ -147,9 +160,11 @@
                     </div>
                     <div class="col-lg-6">
                         <p class="mt-4">blah blah blah blah blah blah blah blah blah blah <a
-                                href="https://calendly.com/">blah blah blah blah blah blah blah blah blah </a>. blah
+                                href="https://calendly.com/lecharlatan/reservations">blah blah blah blah blah blah blah
+                                blah blah </a>. blah
                             blah blah blah blah blah blah</p>
-                        <a class="btn btn-custom btn-lg my-3" href="https://calendly.com/">Contactez-nous</a>
+                        <a class="btn btn-custom btn-lg my-3"
+                            href="https://calendly.com/lecharlatan/reservations">Réserver</a>
                     </div>
                 </div>
             </div>
@@ -171,22 +186,24 @@
                 <div class="col-lg-4">
                     <ul>
                         <li><a href="/">Accueil</a></li>
-                        <li><a href="/carte">Carte</a></li>
+                        <li><a href="/ordonnance">Ordonnance</a></li>
                         <li><a href="/adresse">Adresse</a></li>
                         <li><a href="/contact">Contact</a></li>
                         <li><a href="/réservations">Réservations</a></li>
                         <li><a href="/recrutement">Recrutement</a></li>
+                        <li><a href="mailto:contact@lecharlatan.fr">Contactez nous</a></li>
                     </ul>
                 </div>
                 <div class="col-lg-4">
                     <p>
-                        email@email<br>
-                        +33 6 78 89 05 98
+                        +33 6 78 89 05 98<br>
+                        +33 3 20 39 46 65
                     </p>
-                    <a href="https://calendly.com/">Contactez-nous</a>
+                    <a class="btn btn-custom btn-lg my-3"
+                        href="https://calendly.com/lecharlatan/reservations">Réserver</a>
                 </div>
             </div>
-            <small>2021 Le Charlatan all rights reserved ©</small>
+            <small>2022 Le Charlatan all rights reserved ©</small>
         </div>
     </footer>
 
@@ -197,7 +214,6 @@
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.0/dist/js/bootstrap.bundle.min.js"
         integrity="sha384-Piv4xVNRyMGpqkS2by6br4gNJ7DXjqk09RmUpJ8jgGtD7zP9yug3goQfGII0yAns"
         crossorigin="anonymous"></script>
-
 
 </body>
 

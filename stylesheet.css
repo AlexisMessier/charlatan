@@ -3,6 +3,10 @@ body {
     font-family: open-sans, sans-serif;
 }
 
+.navbarbackgound {
+    background-color: black;
+}
+
 header {
     background-image: url("images/Dissection.png");
     background-position: center;
@@ -21,8 +25,8 @@ header {
 .btn-custom:hover,
 .btn-custom:active {
     color: #fff;
-    background-color: #d19d00 ;
-    border-color: #d19d00 ;
+    background-color: #d19d00;
+    border-color: #d19d00;
     text-decoration: none;
 }
 
@@ -35,7 +39,7 @@ a {
 a:focus,
 a:hover,
 a:active {
-    color: #d19d00 ;
+    color: #d19d00;
     text-decoration: underline;
 }
 
@@ -44,9 +48,9 @@ footer ul a {
 }
 
 ul {
-    list-style:none;
-    margin-left:0;
-    padding-left:0;
+    list-style: none;
+    margin-left: 0;
+    padding-left: 0;
 }
 
 .separator {
@@ -87,7 +91,7 @@ ul {
 .card {
     background-color: #fff;
     padding: 1rem;
-    transition: box-shadow .25s ease-out,color .25s ease-out;
+    transition: box-shadow .25s ease-out, color .25s ease-out;
     box-shadow: 0 0.1rem 0.5rem 0 rgba(0, 0, 0, 0.1);
 }
 
