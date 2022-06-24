@@ -1,10 +1,7 @@
 /* <--------------- Common ---------------> */
 body {
-    font-family: open-sans, sans-serif;
-}
-
-.navbarbackgound {
-    background-color: black;
+    font-family: 'Times New Roman', Times, serif, sans-serif;
+    font-size: 1.25rem;
 }
 
 header {
@@ -12,6 +9,22 @@ header {
     background-position: center;
     color: #fff;
     text-shadow: 1px 1px 2px #212529;
+    text-align: center;
+}
+
+.navbarbackgound {
+    background-color: black;
+}
+
+.bg-warning a {
+    color: black;
+}
+
+.bg-warning a:focus,
+.bg-warning a:hover,
+.bg-warning a:active {
+    color: black;
+    text-decoration: underline;
 }
 
 .btn-custom {
@@ -29,6 +42,12 @@ header {
     border-color: #d19d00;
     text-decoration: none;
 }
+
+h1 {
+    font-family: Zhi Mang Xing;
+    font-size: 100px;
+}
+
 
 a {
     color: #EBB900;
