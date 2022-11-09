@@ -1,6 +1,6 @@
 /* <--------------- Common ---------------> */
 body {
-    font-family: 'Times New Roman', Times, serif, sans-serif;
+    font-family: 'MedievalSharp', cursive;
     font-size: 1.25rem;
 }
 
@@ -44,10 +44,8 @@ header {
 }
 
 h1 {
-    font-family: Zhi Mang Xing;
     font-size: 100px;
 }
-
 
 a {
     color: #EBB900;
@@ -98,11 +96,17 @@ ul {
     opacity: 1;
 }
 
-.map {
-    background-image: url(/svg/background-map.svg);
-    height: 500px;
-    background-repeat: no-repeat;
-    background-position: center;
+.barmapdiv {
+    height: 400px;
+    display: inline-block;
+    overflow: hidden;
+    width: 100%;
+}
+
+.barmap {
+    position: relative;
+    top: -60px;
+    height: 445px;
 }
 
 
