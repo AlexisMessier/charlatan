@@ -6,6 +6,16 @@ body {
     background-color: #EFE5DD;
 }
 
+/* <--------------- Navbar ---------------> */
+.navbar {
+    font-family: 'Rakkas', cursive;
+}
+
+.navbarbackgound {
+    background-color: black;
+}
+
+/* <--------------- Header ---------------> */
 header {
     background-image: url("images/Dissection.png");
     background-position: center;
@@ -14,8 +24,20 @@ header {
     text-align: center;
 }
 
-footer {
-    font-family: 'Rakkas', cursive;
+/* <--------------- Background ---------------> */
+.bg-custom1 {
+    background-color: #DE2533;
+}
+
+.bg-custom1 a {
+    color: #fff;
+}
+
+.bg-custom1 a:focus,
+.bg-custom1 a:hover,
+.bg-custom1 a:active {
+    color: #fff;
+    text-decoration: underline;
 }
 
 .backgroundImg {
@@ -23,32 +45,11 @@ footer {
     background-repeat: repeat;
 }
 
-/* <--------------- Navbar ---------------> */
-.navbar {
-    font-family: 'Rakkas', cursive;
-}
-
-
-.navbarbackgound {
-    background-color: black;
-}
-
 /* <--------------- Buttons ---------------> */
-.bg-warning a {
-    color: black;
-}
-
-.bg-warning a:focus,
-.bg-warning a:hover,
-.bg-warning a:active {
-    color: black;
-    text-decoration: underline;
-}
-
 .btn-custom {
     color: #fff;
-    background-color: #EBB900;
-    border-color: #EBB900;
+    background-color: #DE2533;
+    border-color: #DE2533;
     text-decoration: none;
 }
 
@@ -56,14 +57,9 @@ footer {
 .btn-custom:hover,
 .btn-custom:active {
     color: #fff;
-    background-color: #d19d00;
-    border-color: #d19d00;
+    background-color: #EE5A72;
+    border-color: #EE5A72;
     text-decoration: none;
-}
-
-.icon {
-    margin: 1rem;
-    height: 3rem;
 }
 
 /* <--------------- Text ---------------> */
@@ -88,7 +84,7 @@ h4 {
 }
 
 a {
-    color: #EBB900;
+    color: #DE2533;
     text-decoration: none;
     cursor: pointer;
 }
@@ -96,8 +92,13 @@ a {
 a:focus,
 a:hover,
 a:active {
-    color: #d19d00;
+    color: #EE5A72;
     text-decoration: underline;
+}
+
+/* <--------------- Footer ---------------> */
+footer {
+    font-family: 'Rakkas', cursive;
 }
 
 footer ul a {
@@ -113,7 +114,7 @@ ul {
 .separator {
     height: 0.3rem;
     width: 6rem;
-    background: #EBB900;
+    background: #DE2533;
     border-radius: 1rem;
 }
 
@@ -121,8 +122,10 @@ ul {
     box-shadow: 0 0.1rem 0.5rem 0 rgba(0, 0, 0, 0.1);
 }
 
-.screen {
-    box-shadow: 0 0.1rem 0.5rem 0 rgba(0, 0, 0, 0.1);
+/* <--------------- Images ---------------> */
+.icon {
+    margin: 1rem;
+    height: 3rem;
 }
 
 .logos img {
@@ -135,20 +138,6 @@ ul {
     filter: grayscale(0);
     opacity: 1;
 }
-
-.barmapdiv {
-    height: 400px;
-    display: inline-block;
-    overflow: hidden;
-    width: 100%;
-}
-
-.barmap {
-    position: relative;
-    top: -60px;
-    height: 445px;
-}
-
 
 /* <--------------- Cards ---------------> */
 .card {
@@ -173,5 +162,5 @@ ul {
 }
 
 .card strong {
-    color: #EBB900;
+    color: #DE2533;
 }
