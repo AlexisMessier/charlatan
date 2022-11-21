@@ -19,6 +19,7 @@ body {
 header {
     background-image: url("images/Dissection.png");
     background-position: center;
+    background-size: cover;
     color: #fff;
     text-shadow: 1px 1px 2px #212529;
     text-align: center;
@@ -47,6 +48,7 @@ header {
 
 /* <--------------- Buttons ---------------> */
 .btn-custom {
+    font-family: 'Rakkas', cursive;
     color: #fff;
     background-color: #DE2533;
     border-color: #DE2533;
@@ -65,22 +67,22 @@ header {
 /* <--------------- Text ---------------> */
 h1 {
     font-family: 'Rakkas', cursive;
-    font-size: 4.5rem;
+    font-size: 4rem;
 }
 
 h2 {
     font-family: 'Rakkas', cursive;
-    font-size: 3.5rem;
+    font-size: 3rem;
 }
 
 h3 {
     font-family: 'Rakkas', cursive;
-    font-size: 3rem;
+    font-size: 2.5rem;
 }
 
 h4 {
     font-family: 'Rakkas', cursive;
-    font-size: 2.5rem;
+    font-size: 2rem;
 }
 
 a {
@@ -142,13 +144,8 @@ ul {
 /* <--------------- Cards ---------------> */
 .card {
     background-color: #fff;
-    padding: 1rem;
     transition: box-shadow .25s ease-out, color .25s ease-out;
     box-shadow: 0 0.1rem 0.5rem 0 rgba(0, 0, 0, 0.1);
-}
-
-.card .separator {
-    margin: auto;
 }
 
 .card:focus,
@@ -157,10 +154,7 @@ ul {
     box-shadow: 0 0.1rem 0.5rem 0 rgba(0, 0, 0, 0.5);
 }
 
-.card li {
-    display: flex;
-}
-
-.card strong {
-    color: #DE2533;
+.card img {
+    width: 100%;
+    object-fit: cover;
 }
