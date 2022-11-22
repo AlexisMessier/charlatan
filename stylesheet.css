@@ -101,27 +101,17 @@ a:active {
 /* <--------------- Footer ---------------> */
 footer {
     font-family: 'Rakkas', cursive;
+    background-color: black;
+    color: white;
 }
 
 footer ul a {
-    color: #212529;
+    color: rgba(255, 255, 255, .55);
 }
 
 ul {
     list-style: none;
-    margin-left: 0;
     padding-left: 0;
-}
-
-.separator {
-    height: 0.3rem;
-    width: 6rem;
-    background: #DE2533;
-    border-radius: 1rem;
-}
-
-.border-shadow {
-    box-shadow: 0 0.1rem 0.5rem 0 rgba(0, 0, 0, 0.1);
 }
 
 /* <--------------- Images ---------------> */
@@ -145,13 +135,13 @@ ul {
 .card {
     background-color: #fff;
     transition: box-shadow .25s ease-out, color .25s ease-out;
-    box-shadow: 0 0.1rem 0.5rem 0 rgba(0, 0, 0, 0.1);
+    box-shadow: 0 0.1rem 1rem 0 rgba(0, 0, 0, 0.1);
 }
 
 .card:focus,
 .card:hover,
 .card:active {
-    box-shadow: 0 0.1rem 0.5rem 0 rgba(0, 0, 0, 0.5);
+    box-shadow: 0 0.1rem 1rem 0 rgba(0, 0, 0, 0.5);
 }
 
 .card img {
