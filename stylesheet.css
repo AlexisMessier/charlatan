@@ -64,6 +64,14 @@ header {
     text-decoration: none;
 }
 
+/* <--------------- Separator ---------------> */
+
+.separator {
+    height: 0.3rem;
+    background: #fe5b63;
+    border-radius: 1rem;
+}
+
 /* <--------------- Text ---------------> */
 h1 {
     font-family: 'Rakkas', cursive;
