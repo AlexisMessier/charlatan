@@ -57,6 +57,7 @@ header {
 /* <--------------- Buttons ---------------> */
 .btn-custom {
     font-family: 'MedievalSharp-Book';
+    font-weight: bold;
     color: #fff;
     background-color: #DE2533;
     border-color: #DE2533;
@@ -83,21 +84,25 @@ header {
 /* <--------------- Text ---------------> */
 h1 {
     font-family: 'MedievalSharp-Book';
+    font-weight: bold;
     font-size: 4rem;
 }
 
 h2 {
     font-family: 'MedievalSharp-Book';
+    font-weight: bold;
     font-size: 3rem;
 }
 
 h3 {
     font-family: 'MedievalSharp-Book';
+    font-weight: bold;
     font-size: 2.5rem;
 }
 
 h4 {
     font-family: 'MedievalSharp-Book';
+    font-weight: bold;
     font-size: 2rem;
 }
 
