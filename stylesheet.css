@@ -1,6 +1,13 @@
 /* <--------------- Common ---------------> */
+@font-face {
+    font-family: "MedievalSharp-Book";
+    src: url('fonts/MedievalSharp-Book.ttf');
+    font-weight: normal;
+    font-size: normal;
+}
+
 body {
-    font-family: 'Alegreya Sans', sans-serif;
+    font-family: 'MedievalSharp-Book';
     font-size: 1.25rem;
     color: #3a1603;
     background-color: #EFE5DD;
@@ -8,7 +15,8 @@ body {
 
 /* <--------------- Navbar ---------------> */
 .navbar {
-    font-family: 'Rakkas', cursive;
+    font-family: 'MedievalSharp-Book';
+    font-weight: bold;
 }
 
 .navbarbackgound {
@@ -48,7 +56,7 @@ header {
 
 /* <--------------- Buttons ---------------> */
 .btn-custom {
-    font-family: 'Rakkas', cursive;
+    font-family: 'MedievalSharp-Book';
     color: #fff;
     background-color: #DE2533;
     border-color: #DE2533;
@@ -74,22 +82,22 @@ header {
 
 /* <--------------- Text ---------------> */
 h1 {
-    font-family: 'Rakkas', cursive;
+    font-family: 'MedievalSharp-Book';
     font-size: 4rem;
 }
 
 h2 {
-    font-family: 'Rakkas', cursive;
+    font-family: 'MedievalSharp-Book';
     font-size: 3rem;
 }
 
 h3 {
-    font-family: 'Rakkas', cursive;
+    font-family: 'MedievalSharp-Book';
     font-size: 2.5rem;
 }
 
 h4 {
-    font-family: 'Rakkas', cursive;
+    font-family: 'MedievalSharp-Book';
     font-size: 2rem;
 }
 
@@ -108,7 +116,7 @@ a:active {
 
 /* <--------------- Footer ---------------> */
 footer {
-    font-family: 'Rakkas', cursive;
+    font-family: 'MedievalSharp-Book';
     background-color: black;
     color: white;
 }
