@@ -6,6 +6,13 @@
     font-size: normal;
 }
 
+@font-face {
+    font-family: "Medieval-Parchemin";
+    src: url('fonts/Medieval-Parchemin.otf');
+    font-weight: normal;
+    font-size: normal;
+}
+
 body {
     font-family: 'MedievalSharp-Book';
     font-size: 1.25rem;
@@ -83,25 +90,25 @@ header {
 
 /* <--------------- Text ---------------> */
 h1 {
-    font-family: 'MedievalSharp-Book';
+    font-family: 'Medieval-Parchemin';
     font-weight: bold;
     font-size: 4rem;
 }
 
 h2 {
-    font-family: 'MedievalSharp-Book';
+    font-family: 'Medieval-Parchemin';
     font-weight: bold;
     font-size: 3rem;
 }
 
 h3 {
-    font-family: 'MedievalSharp-Book';
+    font-family: 'Medieval-Parchemin';
     font-weight: bold;
     font-size: 2.5rem;
 }
 
 h4 {
-    font-family: 'MedievalSharp-Book';
+    font-family: 'Medieval-Parchemin';
     font-weight: bold;
     font-size: 2rem;
 }
