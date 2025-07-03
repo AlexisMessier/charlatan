@@ -178,12 +178,18 @@ ul {
 
 /* <--------------- Magic Cards ---------------> */
 .magic-card {
+    text-align: -webkit-center;
+}
+
+.magic-card-template {
     position: relative;
     width: 300px;
     height: 450px;
+    text-align: left;
+
 }
 
-.magic-card img {
+.magic-card-template img {
     border-radius: 1rem;
 }
 
