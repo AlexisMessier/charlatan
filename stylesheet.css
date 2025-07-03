@@ -7,15 +7,14 @@
 }
 
 @font-face {
-    font-family: "Medieval-Parchemin";
-    src: url('fonts/Medieval-Parchemin.otf');
+    font-family: "MedievalParchemin";
+    src: url('fonts/MedievalParchemin.otf');
     font-weight: normal;
     font-size: normal;
 }
 
 body {
     font-family: 'MedievalSharp-Book';
-    font-size: 1.25rem;
     color: #3a1603;
     background-color: #EFE5DD;
 }
@@ -42,7 +41,7 @@ header {
 
 /* <--------------- Background ---------------> */
 .bg-custom1 {
-    background-color: #DE2533;
+    background-color: #921F15;
 }
 
 .bg-custom1 a {
@@ -66,8 +65,8 @@ header {
     font-family: 'MedievalSharp-Book';
     font-weight: bold;
     color: #fff;
-    background-color: #DE2533;
-    border-color: #DE2533;
+    background-color: #921F15;
+    border-color: #921F15;
     text-decoration: none;
 }
 
@@ -75,8 +74,8 @@ header {
 .btn-custom:hover,
 .btn-custom:active {
     color: #fff;
-    background-color: #EE5A72;
-    border-color: #EE5A72;
+    background-color: #DE2533;
+    border-color: #DE2533;
     text-decoration: none;
 }
 
@@ -84,33 +83,33 @@ header {
 
 .separator {
     height: 0.3rem;
-    background: #fe5b63;
+    background: #921F15;
     border-radius: 1rem;
 }
 
 /* <--------------- Text ---------------> */
 h1 {
-    font-family: 'Medieval-Parchemin';
+    font-family: 'MedievalParchemin';
     font-size: 4rem;
 }
 
 h2 {
-    font-family: 'Medieval-Parchemin';
+    font-family: 'MedievalParchemin';
     font-size: 3rem;
 }
 
 h3 {
-    font-family: 'Medieval-Parchemin';
+    font-family: 'MedievalParchemin';
     font-size: 2.5rem;
 }
 
 h4 {
-    font-family: 'Medieval-Parchemin';
+    font-family: 'MedievalParchemin';
     font-size: 2rem;
 }
 
 a {
-    color: #DE2533;
+    color: #921F15;
     text-decoration: none;
     cursor: pointer;
 }
@@ -118,7 +117,7 @@ a {
 a:focus,
 a:hover,
 a:active {
-    color: #EE5A72;
+    color: #DE2533;
     text-decoration: underline;
 }
 
