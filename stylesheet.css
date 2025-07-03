@@ -181,6 +181,13 @@ ul {
     text-align: -webkit-center;
 }
 
+.magic-card-template:focus,
+.magic-card-template:hover,
+.magic-card-template:active {
+    box-shadow: 0 0.1rem 1rem 0 rgba(0, 0, 0, 0.5);
+    border-radius: 2rem;
+}
+
 .magic-card-template {
     position: relative;
     width: 300px;
