@@ -90,12 +90,12 @@ header {
 /* <--------------- Text ---------------> */
 h1 {
     font-family: 'MedievalParchemin';
-    font-size: 3.5rem;
+    font-size: 4rem;
 }
 
 h2 {
     font-family: 'MedievalParchemin';
-    font-size: 2.5rem;
+    font-size: 3rem;
 }
 
 h3 {
@@ -121,6 +121,10 @@ a:active {
     text-decoration: underline;
 }
 
+.illumination-capital {
+    width: 4.5rem;
+}
+
 /* <--------------- Footer ---------------> */
 footer {
     font-family: 'MedievalSharp-Book';
@@ -143,13 +147,13 @@ ul {
     height: 3rem;
 }
 
-.logos img {
+.logo img {
     opacity: 0.4;
     filter: grayscale(100%);
     transition: opacity ease-in-out 0.15s;
 }
 
-.logos img:hover {
+.logo img:hover {
     filter: grayscale(0);
     opacity: 1;
 }
