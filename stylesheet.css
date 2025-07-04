@@ -23,10 +23,14 @@ body {
 .navbar {
     font-family: 'MedievalSharp-Book';
     font-weight: bold;
-    height: 80px;
-    opacity: .8;
+    opacity: .9;
     background: url("images/backgrounds/fond-navbar.svg") no-repeat 100% 100%/100% 100%,
         url("images/backgrounds/fond-navbar.svg") no-repeat 100% 100%/100% 100%;
+}
+
+.navbar-toggler-icon {
+    height: 25px;
+    width: 25px;
 }
 
 /* <--------------- Header ---------------> */
