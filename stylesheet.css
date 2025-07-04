@@ -65,17 +65,17 @@ header {
     font-family: 'MedievalSharp-Book';
     font-weight: bold;
     color: #fff;
-    background-color: #921F15;
-    border-color: #921F15;
     text-decoration: none;
+    background: url("images/backgrounds/fond-bouton.svg") no-repeat 100% 100%/100% 100%,
+        url("images/backgrounds/fond-bouton.svg") no-repeat 100% 100%/100% 100%;
+    border: 0;
+    border-radius: 0;
 }
 
 .btn-custom:focus,
 .btn-custom:hover,
 .btn-custom:active {
     color: #fff;
-    background-color: #DE2533;
-    border-color: #DE2533;
     text-decoration: none;
 }
 
@@ -88,24 +88,12 @@ header {
 }
 
 /* <--------------- Text ---------------> */
-h1 {
+h1,
+h2,
+h3,
+h4,
+h5 {
     font-family: 'MedievalParchemin';
-    font-size: 4rem;
-}
-
-h2 {
-    font-family: 'MedievalParchemin';
-    font-size: 3rem;
-}
-
-h3 {
-    font-family: 'MedievalParchemin';
-    font-size: 2rem;
-}
-
-h4 {
-    font-family: 'MedievalParchemin';
-    font-size: 1.5rem;
 }
 
 a {
