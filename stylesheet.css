@@ -23,10 +23,10 @@ body {
 .navbar {
     font-family: 'MedievalSharp-Book';
     font-weight: bold;
-}
-
-.navbarbackgound {
-    background-color: black;
+    height: 80px;
+    opacity: .8;
+    background: url("images/backgrounds/fond-navbar.svg") no-repeat 100% 100%/100% 100%,
+        url("images/backgrounds/fond-navbar.svg") no-repeat 100% 100%/100% 100%;
 }
 
 /* <--------------- Header ---------------> */
@@ -70,6 +70,7 @@ header {
         url("images/backgrounds/fond-bouton.svg") no-repeat 100% 100%/100% 100%;
     border: 0;
     border-radius: 0;
+    max-width: fit-content;
 }
 
 .btn-custom:focus,
@@ -77,6 +78,10 @@ header {
 .btn-custom:active {
     color: #fff;
     text-decoration: none;
+    background: url("images/backgrounds/fond-bouton-hover.svg") no-repeat 100% 100%/100% 100%,
+        url("images/backgrounds/fond-bouton-hover.svg") no-repeat 100% 100%/100% 100%;
+    border: 0;
+    border-radius: 0;
 }
 
 /* <--------------- Separator ---------------> */
