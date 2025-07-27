@@ -1,0 +1,182 @@
+/* <--------------- Common ---------------> */
+@font-face {
+    font-family: "MedievalSharp-Book";
+    src: url('fonts/MedievalSharp-Book.ttf');
+    font-weight: normal;
+    font-size: normal;
+}
+
+@font-face {
+    font-family: "MedievalParchemin";
+    src: url('fonts/MedievalParchemin.otf');
+    font-weight: normal;
+    font-size: normal;
+}
+
+body {
+    font-family: 'MedievalSharp-Book';
+    color: #3a1603;
+    background-image: url("images/backgrounds/wood.jpg");
+    background-size: cover;
+}
+
+
+*,
+*:before,
+*:after {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* <--------------- Text ---------------> */
+h1,
+h2,
+h3,
+h4,
+h5 {
+    font-family: 'MedievalParchemin';
+}
+
+a {
+    color: #921F15;
+    text-decoration: none;
+    cursor: pointer;
+}
+
+a:focus,
+a:hover,
+a:active {
+    color: #DE2533;
+    text-decoration: underline;
+}
+
+.illumination-capital {
+    width: 4.5rem;
+}
+
+ul {
+    list-style: none;
+    padding-left: 0;
+}
+
+/* <--------------- Navbar ---------------> */
+.navbar {
+    font-family: 'MedievalSharp-Book';
+    font-weight: bold;
+    background-color: #212529;
+}
+
+.navbar-toggler-icon {
+    height: 25px;
+    width: 25px;
+}
+
+
+/* <--------------- Footer ---------------> */
+footer {
+    font-family: 'MedievalSharp-Book';
+    background-color: #212529;
+    color: white;
+}
+
+footer a {
+    color: rgba(255, 255, 255, .55);
+}
+
+/* <--------------- Button ---------------> */
+.btn-custom {
+    font-family: 'MedievalSharp-Book';
+    font-weight: bold;
+    color: #fff;
+    text-decoration: none;
+    background: url("images/backgrounds/fond-bouton.svg") no-repeat 100% 100%/100% 100%,
+        url("images/backgrounds/fond-bouton.svg") no-repeat 100% 100%/100% 100%;
+    border: 0;
+    border-radius: 0;
+    max-width: fit-content;
+}
+
+.btn-custom:focus,
+.btn-custom:hover,
+.btn-custom:active {
+    color: #fff;
+    text-decoration: none;
+    background: url("images/backgrounds/fond-bouton-hover.svg") no-repeat 100% 100%/100% 100%,
+        url("images/backgrounds/fond-bouton-hover.svg") no-repeat 100% 100%/100% 100%;
+    border: 0;
+    border-radius: 0;
+}
+
+/* <--------------- Images ---------------> */
+.icon-social img {
+    margin: 1rem;
+    height: 3rem;
+}
+
+.icon-small img {
+    width: 75px;
+    height: auto;
+}
+
+.icon-normal img {
+    width: 150px;
+    height: auto;
+}
+
+/* <--------------- Background ---------------> */
+
+.bg-custom1 {
+    background-color: #921F15;
+}
+
+.bg-custom1 a {
+    color: #fff;
+}
+
+.bg-custom1 a:focus,
+.bg-custom1 a:hover,
+.bg-custom1 a:active {
+    color: #fff;
+    text-decoration: underline;
+}
+
+
+/* <--------------- Scroll ---------------> */
+
+#scroll {
+    position: absolute;
+    display: flex;
+    width: 90%;
+    top: 3em;
+    left: 50%;
+    transform: translate(-50%, 0);
+    margin: 2em 0;
+    padding: 4em;
+    box-shadow: 2px 3px 20px black, 0 0 125px #8f5922 inset;
+    background: #fffef0;
+    filter: url(#wavy2);
+}
+
+#scroll:after {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: conic-gradient(#fff3, #fff0 2% 24%, #fff2 25%, #4321 0, #0000 27% 48%, #9632 50%, #fff2 0, #fff0 52% 73%, #9632 75%, #fff3 0, #fff0 78% 97%, #9632);
+}
+
+#contain {
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    width: 90%;
+    height: auto;
+    margin-top: 3.5em;
+    margin-right: auto;
+    margin-bottom: 0;
+    margin-left: auto;
+    padding: 4em;
+}
