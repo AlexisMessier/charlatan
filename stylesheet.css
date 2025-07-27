@@ -23,9 +23,7 @@ body {
 .navbar {
     font-family: 'MedievalSharp-Book';
     font-weight: bold;
-    opacity: .9;
-    background: url("images/backgrounds/fond-navbar.svg") no-repeat 100% 100%/100% 100%,
-        url("images/backgrounds/fond-navbar.svg") no-repeat 100% 100%/100% 100%;
+    background-color: #212529;
 }
 
 .navbar-toggler-icon {
@@ -62,6 +60,22 @@ header {
 .backgroundImg {
     background-image: url("images/pattern1.jpg");
     background-repeat: repeat;
+}
+
+#parchment {
+    position: absolute;
+    display: flex;
+    width: 75%;
+    min-height: calc((1vw + 1vh) * 75);
+    /* center page with absolute position */
+    top: 0%;
+    left: 50%;
+    transform: translate(-50%, 0);
+    margin: 2em 0;
+    padding: 4em;
+    box-shadow: 2px 3px 20px black, 0 0 60px #8a4d0f inset;
+    background: #fffef0;
+    filter: url(#wavy2);
 }
 
 /* <--------------- Buttons ---------------> */
@@ -122,20 +136,20 @@ a:active {
     width: 4.5rem;
 }
 
-/* <--------------- Footer ---------------> */
-footer {
-    font-family: 'MedievalSharp-Book';
-    background-color: black;
-    color: white;
-}
-
-footer ul a {
-    color: rgba(255, 255, 255, .55);
-}
-
 ul {
     list-style: none;
     padding-left: 0;
+}
+
+/* <--------------- Footer ---------------> */
+footer {
+    font-family: 'MedievalSharp-Book';
+    background-color: #212529;
+    color: white;
+}
+
+footer a {
+    color: rgba(255, 255, 255, .55);
 }
 
 /* <--------------- Images ---------------> */
