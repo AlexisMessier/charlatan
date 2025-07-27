@@ -1,0 +1,233 @@
+/* <--------------- Common ---------------> */
+@font-face {
+    font-family: "MedievalSharp-Book";
+    src: url('fonts/MedievalSharp-Book.ttf');
+    font-weight: normal;
+    font-size: normal;
+}
+
+@font-face {
+    font-family: "MedievalParchemin";
+    src: url('fonts/MedievalParchemin.otf');
+    font-weight: normal;
+    font-size: normal;
+}
+
+body {
+    font-family: 'MedievalSharp-Book';
+    color: #3a1603;
+    background-color: #EFE5DD;
+}
+
+/* <--------------- Navbar ---------------> */
+.navbar {
+    font-family: 'MedievalSharp-Book';
+    font-weight: bold;
+    background-color: #212529;
+}
+
+.navbar-toggler-icon {
+    height: 25px;
+    width: 25px;
+}
+
+/* <--------------- Header ---------------> */
+header {
+    background-image: url("images/Dissection.png");
+    background-position: center;
+    background-size: cover;
+    color: #fff;
+    text-shadow: 1px 1px 2px #212529;
+    text-align: center;
+}
+
+/* <--------------- Background ---------------> */
+.bg-custom1 {
+    background-color: #921F15;
+}
+
+.bg-custom1 a {
+    color: #fff;
+}
+
+.bg-custom1 a:focus,
+.bg-custom1 a:hover,
+.bg-custom1 a:active {
+    color: #fff;
+    text-decoration: underline;
+}
+
+.backgroundImg {
+    background-image: url("images/pattern1.jpg");
+    background-repeat: repeat;
+}
+
+/* <--------------- Buttons ---------------> */
+.btn-custom {
+    font-family: 'MedievalSharp-Book';
+    font-weight: bold;
+    color: #fff;
+    text-decoration: none;
+    background: url("images/backgrounds/fond-bouton.svg") no-repeat 100% 100%/100% 100%,
+        url("images/backgrounds/fond-bouton.svg") no-repeat 100% 100%/100% 100%;
+    border: 0;
+    border-radius: 0;
+    max-width: fit-content;
+}
+
+.btn-custom:focus,
+.btn-custom:hover,
+.btn-custom:active {
+    color: #fff;
+    text-decoration: none;
+    background: url("images/backgrounds/fond-bouton-hover.svg") no-repeat 100% 100%/100% 100%,
+        url("images/backgrounds/fond-bouton-hover.svg") no-repeat 100% 100%/100% 100%;
+    border: 0;
+    border-radius: 0;
+}
+
+/* <--------------- Separator ---------------> */
+
+.separator {
+    height: 0.3rem;
+    background: #921F15;
+    border-radius: 1rem;
+}
+
+/* <--------------- Text ---------------> */
+h1,
+h2,
+h3,
+h4,
+h5 {
+    font-family: 'MedievalParchemin';
+}
+
+a {
+    color: #921F15;
+    text-decoration: none;
+    cursor: pointer;
+}
+
+a:focus,
+a:hover,
+a:active {
+    color: #DE2533;
+    text-decoration: underline;
+}
+
+.illumination-capital {
+    width: 4.5rem;
+}
+
+ul {
+    list-style: none;
+    padding-left: 0;
+}
+
+/* <--------------- Footer ---------------> */
+footer {
+    font-family: 'MedievalSharp-Book';
+    background-color: #212529;
+    color: white;
+}
+
+footer a {
+    color: rgba(255, 255, 255, .55);
+}
+
+/* <--------------- Images ---------------> */
+.icon-social img {
+    margin: 1rem;
+    height: 3rem;
+}
+
+.icon-small img {
+    width: 75px;
+    height: auto;
+}
+
+.icon-normal img {
+    width: 150px;
+    height: auto;
+}
+
+/* <--------------- Cards ---------------> */
+.card {
+    background-color: #fff;
+    transition: box-shadow .25s ease-out, color .25s ease-out;
+    box-shadow: 0 0.1rem 1rem 0 rgba(0, 0, 0, 0.1);
+    border-radius: 2rem;
+}
+
+.card:focus,
+.card:hover,
+.card:active {
+    box-shadow: 0 0.1rem 1rem 0 rgba(0, 0, 0, 0.5);
+}
+
+.card img {
+    width: 100%;
+    object-fit: cover;
+    border-top-left-radius: 2rem;
+    border-top-right-radius: 2rem;
+    z-index: 1;
+}
+
+/* <--------------- Magic Cards ---------------> */
+.magic-card {
+    text-align: -webkit-center;
+}
+
+.magic-card-template:focus,
+.magic-card-template:hover,
+.magic-card-template:active {
+    box-shadow: 0 0.1rem 1rem 0 rgba(0, 0, 0, 0.5);
+    border-radius: 2rem;
+}
+
+.magic-card-template {
+    position: relative;
+    width: 300px;
+    height: 450px;
+    text-align: left;
+
+}
+
+.magic-card-template img {
+    border-radius: 1rem;
+}
+
+.magic-art {
+    width: 100%;
+    height: auto;
+    padding: 1.5rem;
+}
+
+.magic-frame {
+    position: absolute;
+    width: 100%;
+    height: auto;
+}
+
+.magic-title {
+    position: absolute;
+    top: 5px;
+    left: 18px;
+    right: 18px;
+}
+
+.magic-subtitle {
+    position: absolute;
+    top: 241px;
+    left: 18px;
+    right: 18px;
+    font-weight: bold;
+}
+
+.magic-content {
+    position: absolute;
+    top: 290px;
+    left: 18px;
+    right: 18px;
+}
