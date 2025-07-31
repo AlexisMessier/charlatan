@@ -160,7 +160,7 @@ footer a {
 #scroll {
     position: absolute;
     display: flex;
-    width: 90%;
+    width: 95%;
     top: 3em;
     left: 50%;
     transform: translate(-50%, 0);
@@ -185,11 +185,11 @@ footer a {
     position: relative;
     display: flex;
     flex-direction: column;
-    width: 90%;
+    width: 95%;
     height: auto;
-    margin-top: 3.5em;
-    margin-right: auto;
+    margin-top: 6em;
     margin-bottom: 0;
+    margin-right: auto;
     margin-left: auto;
-    padding: 4em;
+    padding: 0.5em;
 }
